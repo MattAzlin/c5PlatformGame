@@ -58,6 +58,7 @@ public abstract class GameObject {
         this.bitmapName = bitmapName;
     }
 
+
     public float getWidth() {
         return width;
     }
@@ -76,6 +77,22 @@ public abstract class GameObject {
 
     public char getType() {
         return type;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    public void setVisible(boolean visible) {
+        this.visible = visible;
+    }
+
+    public boolean isVisible() {
+        return visible;
+    }
+
+    public boolean isActive() {
+        return active;
     }
 
     public void setType(char type) {
