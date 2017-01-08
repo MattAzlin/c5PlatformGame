@@ -69,7 +69,7 @@ public class PlatformView extends SurfaceView implements Runnable{
             //First we ock the area of memory we will be drawing to
             canvas = ourHolder.lockCanvas();
 
-            //Rub out te last frame with arbitrary color
+            //Rub out the last frame with arbitrary color
             paint.setColor(Color.argb(255,0,0,255));
             canvas.drawColor(Color.argb(255,0,0,255));
 
